@@ -224,7 +224,7 @@ a:focus, a:hover {
 
 .btn-default {
   color: #42DCA3;
-  border: 1px solid #42DCA3;
+  /*border: 1px solid #42DCA3;*/
   background-color: transparent;
 }
 
@@ -233,6 +233,7 @@ a:focus, a:hover {
   border: 1px solid #42DCA3;
   outline: none;
   background-color: #42DCA3;
+  border-radius: 30px;
 }
 
 ul.banner-social-buttons {
@@ -247,7 +248,7 @@ ul.banner-social-buttons {
 
 @media (max-width: 767px) {
   ul.banner-social-buttons li {
-    display: block;
+    /*display: block;*/
     margin-bottom: 20px;
     padding: 0;
   }
